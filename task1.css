@@ -1,0 +1,27 @@
+.flex-container {
+    display: flex;
+    background-color: #62374e;
+    justify-content: space-between;
+    align-items:center;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #62374e;
+    margin: 0;
+  }
+
+.flex-parent {
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+  .flex-container > div {
+    background-color: #fdc57b;
+    margin: 8rem;
+    margin-top: 0;
+    margin-bottom:0;
+    padding: 4rem;
+  }
